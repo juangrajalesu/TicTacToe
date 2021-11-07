@@ -1,0 +1,54 @@
+.wrapper {
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 500px;
+  height: 500px;
+}
+.red {
+  color: brown;
+}
+.black {
+  color: black;
+}
+.cell {
+  padding: 30px;
+  border: 2px black;
+  font-size: 70px;
+ 
+  text-align: center;
+}
+
+.uno {
+  border-style: none solid solid none;
+}
+
+.dos {
+  border-style: none solid solid solid;
+}
+
+.tres {
+  border-style: none none solid solid;
+}
+
+.cuatro {
+  border-style: solid solid solid none;
+}
+.cinco {
+  border-style: solid solid solid solid;
+}
+
+.seis {
+  border-style: solid none solid solid;
+}
+.siete {
+  border-style: solid solid none none;
+}
+
+.ocho {
+  border-style: solid solid none solid;
+}
+.nueve {
+  border-style: solid none none solid;
+}
